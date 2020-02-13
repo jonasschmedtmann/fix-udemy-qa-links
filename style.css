@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  height: 100vh;
+  padding: 8rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.input {
+  padding: 3rem;
+  font-size: 1.8rem;
+  width: 100%;
+  height: 30rem;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+*:focus {
+  outline: none;
+}
+
+.btn {
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}
+
+.output {
+  padding: 3rem;
+  width: 100%;
+  font-size: 14px;
+  background-color: #f5f5f5;
+}
+
+.output-link {
+  display: block;
+  margin-bottom: 3.5rem;
+}
